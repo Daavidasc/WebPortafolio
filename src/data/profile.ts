@@ -15,7 +15,7 @@ export const profile = {
   skills: ['Data Analytics', 'Software Development', 'Machine Learning'],
   about: {
     label: 'About',
-    title: 'Perfil',
+    title: 'Mi Perfil',
     paragraphs: [
       'Soy estudiante de Ciencia de la Computacion enfocado en construir software impulsado por datos y productos digitales inteligentes.',
       'Mi trabajo combina desarrollo de software, analisis de datos, machine learning y vision por computador. Disfruto llevar proyectos desde la preparacion de datos y la experimentacion con modelos hasta APIs, interfaces y despliegues reproducibles.',
@@ -28,7 +28,6 @@ export const profile = {
       { label: 'Nombre', value: 'David Serrudo' },
       { label: 'Rol', value: 'Estudiante de Ciencia de la Computacion' },
       { label: 'Ubicacion', value: 'Santiago, Chile / Lima, Peru' },
-      { label: 'Enfoque', value: 'Software impulsado por datos' },
     ],
     focusAreas: [
       {
@@ -55,7 +54,7 @@ export const profile = {
   },
   experience: {
     label: 'Experiencia',
-    title: 'Trabajo, investigacion aplicada y practica tecnica.',
+    title: 'Donde he trabajado',
     summary:
       'Una vista breve de experiencias reales donde combino desarrollo, datos, modelos e implementacion de sistemas.',
     groups: [
@@ -91,12 +90,18 @@ export const profile = {
       {
         id: 'hackathon-data-innovatech',
         period: '2026',
-        role: 'Participante Hackathon Data Innovatech',
+        role: 'Participante Hackathon IDEATECH PYME',
         organization: 'ESAN',
         location: '[Pendiente]',
         type: 'datos-ml',
-        focus: 'Informacion pendiente por completar.',
-        points: ['Detalles pendientes por agregar.'],
+        focus:
+          'Desarrollo de Urpi, una plataforma inteligente para apoyar la gestion de PYMES durante un hackathon de innovacion.',
+        points: [
+          'Desarrolle un MVP junto a un equipo multidisciplinario.',
+          'Implemente funcionalidades del sistema e integre componentes de la aplicacion.',
+          'Colabore en el diseno y validacion de la solucion.',
+          'Presente el proyecto ante mentores y jurado.',
+        ],
       },
       {
         id: 'nasa-space-apps',
@@ -105,12 +110,13 @@ export const profile = {
         organization: 'NASA Space Apps Challenge',
         location: '[Pendiente]',
         type: 'datos-ml',
-        focus: 'MVP reproducible con datos astronomicos, API y despliegue con Docker.',
+        focus:
+          'Desarrollo de una solucion basada en datos abiertos de la NASA para apoyar la deteccion de exoplanetas mediante machine learning.',
         points: [
-          'Integre un equipo de tres desarrolladores para entregar un MVP funcional bajo restricciones estrictas de tiempo.',
-          'Lidere el analisis de conjuntos de datos astronomicos para definir la estrategia de modelado.',
-          'Coordine la integracion de frontend y backend mediante iteraciones rapidas.',
-          'Prepare el sistema para reproducibilidad y despliegue mediante Docker.',
+          'Analice y prepare datos astronomicos.',
+          'Colabore en el desarrollo del MVP y la integracion del sistema.',
+          'Implemente componentes para el procesamiento de datos.',
+          'Presente la solucion durante la evaluacion final.',
         ],
       },
       {
@@ -134,11 +140,12 @@ export const profile = {
         organization: 'Universidad Peruana de Ciencias Aplicadas',
         location: 'Lima, Peru',
         type: 'academico',
-        focus: 'Algoritmos, estructuras de datos y resolucion colaborativa de problemas.',
+        focus:
+          'Entrenamiento en algoritmos, estructuras de datos y resolucion de problemas bajo restricciones de tiempo.',
         points: [
-          'Practique algoritmos y estructuras de datos usando C++ y Python.',
-          'Colabore en retos computacionales con limitaciones de tiempo.',
-          'Fortaleci pensamiento algoritmico, optimizacion y practicas de codigo limpio.',
+          'Resolvi problemas algoritmicos utilizando C++ y Python.',
+          'Aplique estructuras de datos y tecnicas de optimizacion en competencias de programacion.',
+          'Fortaleci el pensamiento algoritmico, la resolucion de problemas y el trabajo colaborativo.',
         ],
       },
       {

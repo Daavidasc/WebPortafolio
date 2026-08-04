@@ -159,22 +159,22 @@ section[id] {
   background: color-mix(in srgb, var(--color-bg) 86%, transparent);
   color: var(--color-text);
   font-family: var(--font-mono);
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(0.9rem, 2.35vw, 1.55rem);
   letter-spacing: 0;
   line-height: 1;
-  padding: clamp(0.85rem, 2vw, 1.25rem) clamp(1.25rem, 3vw, 2rem);
+  padding: clamp(0.7rem, 1.55vw, 1rem) clamp(1rem, 2.4vw, 1.6rem);
   text-transform: uppercase;
   white-space: nowrap;
   animation: floatTag 8s ease-in-out infinite;
 }
 
 .skill-tag-shell--primary {
-  left: min(3vw, 13rem);
+  left: min(4vw, 13rem);
   top: 12%;
 }
 
 .skill-tag-shell--secondary {
-  left: min(30vw, 19rem);
+  left: min(49vw, 70rem);
   top: 38%;
 }
 
@@ -183,7 +183,7 @@ section[id] {
 }
 
 .skill-tag-shell--tertiary {
-  left: min(50vw, 70rem);
+  left: min(26vw, 60rem);
   top: 62%;
 }
 
@@ -332,7 +332,7 @@ section[id] {
 }
 
 :root[data-theme="light"] .theme-toggle__thumb {
-  transform: translateX(100%);
+  transform: translateX(100%), rotate(180deg);
 }
 
 .about-section {
@@ -1037,8 +1037,8 @@ section[id] {
   }
 
   .skill-tag {
-    font-size: clamp(0.78rem, 3.7vw, 0.98rem);
-    padding: 0.7rem 0.9rem;
+    font-size: clamp(0.72rem, 3.3vw, 0.88rem);
+    padding: 0.6rem 0.78rem;
     animation-name: floatTagMobile;
   }
 

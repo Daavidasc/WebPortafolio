@@ -19,13 +19,7 @@ export const Hero = () => {
           <h1 className="hero-title" aria-label={profile.name}>
             <span>DAVID</span> <span>SERRUDO</span>
           </h1>
-          <div className="hero-meta">
-            <p>{profile.hero.location}</p>
-            <p>{profile.hero.summary}</p>
-          </div>
-          <a className="hero-cta" href="#contacto">
-            {profile.hero.cta}
-          </a>
+
         </div>
       </div>
 
@@ -33,10 +27,7 @@ export const Hero = () => {
         className="mx-auto grid h-28 w-full max-w-[var(--layout-max)] grid-cols-[1fr_auto] items-start border-t border-[var(--color-line)] px-[var(--space-page)] py-5"
         aria-hidden="true"
       >
-        <span className="font-mono text-xs uppercase text-[var(--color-muted)]">
-          Proxima seccion
-        </span>
-        <span className="h-3 w-3 bg-[var(--color-accent)]" />
+
       </div>
     </section>
   );
