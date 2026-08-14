@@ -52,6 +52,42 @@ export const profile = {
       },
     ],
   },
+  projects: {
+    label: 'Proyectos',
+    range: '2024 - 2026',
+    title: 'Trabajos seleccionados',
+    summary:
+      'Espacio reservado para proyectos reales. Por ahora se muestran placeholders con imagenes de referencia.',
+    items: [
+      {
+        id: 'project-placeholder-01',
+        name: 'Proyecto pendiente 01',
+        year: '2026',
+        category: 'Software / Datos',
+        status: '[Pendiente]',
+        image: '/images/projects/project-reference-grid.png',
+        alt: 'Imagen de referencia para proyecto pendiente',
+      },
+      {
+        id: 'project-placeholder-02',
+        name: 'Proyecto pendiente 02',
+        year: '2026',
+        category: 'Machine Learning',
+        status: '[Pendiente]',
+        image: '/images/projects/project-placeholder-screen.png',
+        alt: 'Imagen de referencia para proyecto pendiente',
+      },
+      {
+        id: 'project-placeholder-03',
+        name: 'Proyecto pendiente 03',
+        year: '2025',
+        category: 'Data Analytics',
+        status: '[Pendiente]',
+        image: '/images/projects/project-reference-grid.png',
+        alt: 'Imagen de referencia para proyecto pendiente',
+      },
+    ],
+  },
   experience: {
     label: 'Experiencia',
     title: 'Donde he trabajado',
