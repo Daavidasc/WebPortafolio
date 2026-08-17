@@ -204,9 +204,21 @@ export const profile = {
     title: 'Disponible para conversar sobre software, datos y machine learning.',
     summary: 'Canales abiertos para oportunidades, proyectos o ideas academicas.',
     channels: [
-      { label: 'Email', value: '[Pendiente]', href: '' },
-      { label: 'GitHub', value: '[Pendiente]', href: '' },
-      { label: 'LinkedIn', value: '[Pendiente]', href: '' },
+      {
+        label: 'Email',
+        value: 'dserrudocaina@gmail.com',
+        href: 'mailto:dserrudocaina@gmail.com',
+      },
+      {
+        label: 'GitHub',
+        value: 'github.com/Daavidasc',
+        href: 'https://github.com/Daavidasc',
+      },
+      {
+        label: 'LinkedIn',
+        value: 'linkedin.com/in/david-serrudo-4782bb274',
+        href: 'https://www.linkedin.com/in/david-serrudo-4782bb274/',
+      },
     ],
     resources: [
       {
