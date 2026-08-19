@@ -28,10 +28,21 @@ export const Projects = () => {
                 <div>
                   <h3>{project.name}</h3>
                   <p>{project.category}</p>
+                  <p className="project-description">{project.description}</p>
                 </div>
                 <div>
                   <span>{project.year}</span>
                   <span>{project.status}</span>
+                  {project.href ? (
+                    <a
+                      className="project-link"
+                      href={project.href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Ver proyecto
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </article>

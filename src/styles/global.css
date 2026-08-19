@@ -634,6 +634,15 @@ section[id] {
   text-transform: uppercase;
 }
 
+.project-description {
+  margin-top: 0.55rem !important;
+  color: var(--color-text) !important;
+  font-family: var(--font-sans) !important;
+  font-size: 0.98rem !important;
+  line-height: 1.7 !important;
+  text-transform: none !important;
+}
+
 .project-meta > div:last-child {
   display: grid;
   justify-items: end;
@@ -645,6 +654,21 @@ section[id] {
   font-family: var(--font-mono);
   font-size: 0.72rem;
   text-transform: uppercase;
+  color: var(--color-accent);
+}
+
+.project-link {
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  text-underline-offset: 0.15rem;
+  text-transform: uppercase;
+}
+
+.project-link:hover,
+.project-link:focus-visible {
   color: var(--color-accent);
 }
 
